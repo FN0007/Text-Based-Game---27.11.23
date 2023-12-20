@@ -378,7 +378,7 @@ elif a_s_input == "2":
                         print_slow("As you attempt to run, the spectres open their mouths and the unmistakable crackling of flame escapes their gaping maws.\nAs soon as the noise escapes their mouth, their bodies disipate and reappear in front of you.\nAs you attempt to run past them, one of the ghosts embraces in.\nAs its tendrils draw you in, your mind gains clarity and you awake somewhere else.\nAs you awake, you see a vision of a man lighting a small cabin alight.\nHe does not shy away from the flames and instead runs straight into the house.\nYour vision fades and you fall into a deep sleep.")
                         You_Died()
                         game_over = True
-            elif corridor_choice == "2" and stone_acquired == False:
+            elif corridor_choice == "2":
                 print_slow("You continue down the unchanging hallway, preparing yourself for whatever may happen.\nYet as you continue down the unending hallway, nothing changes.\nThe walls remain the same and no monsters block your path.\nYou do not know how much time passes, but eventually your legs give out and you collapse.\nAs you lay there, you fall into a deep sleep.")
                 You_Died()
                 game_over = True
